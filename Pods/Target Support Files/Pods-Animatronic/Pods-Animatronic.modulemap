@@ -1,0 +1,6 @@
+framework module Pods_Animatronic {
+  umbrella header "Pods-Animatronic-umbrella.h"
+
+  export *
+  module * { export * }
+}
