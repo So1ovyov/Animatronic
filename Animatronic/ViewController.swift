@@ -51,60 +51,60 @@ class ViewController: UIViewController {
     
     @objc func didTapAnimateButton() {
         if stepCounter == 0 {
-            animateButton.setTitle("Animate", for: .normal)
+            animateButton.setTitle("Animate Shake", for: .normal)
             animationLabel.text = ""
         }
         if stepCounter == 1 {
-            animateButton.setTitle("Next", for: .normal)
+            animateButton.setTitle("Next to Pop", for: .normal)
             animationLabel.text = "Animation Shake"
             imageView.animation = Spring.AnimationPreset.shake.rawValue
             imageView.curve = Spring.AnimationCurve.easeIn.rawValue
             imageView.duration = 1.5
             imageView.animate()
         } else if stepCounter == 2 {
-            animateButton.setTitle("Next", for: .normal)
+            animateButton.setTitle("Next to Morph", for: .normal)
             animationLabel.text = "Animation Pop"
             imageView.animation = Spring.AnimationPreset.pop.rawValue
             imageView.curve = Spring.AnimationCurve.easeIn.rawValue
             imageView.duration = 1.5
             imageView.animate()
         } else if stepCounter == 3 {
-            animateButton.setTitle("Next", for: .normal)
+            animateButton.setTitle("Next to Squeeze", for: .normal)
             animationLabel.text = "Animation Morph"
             imageView.animation = Spring.AnimationPreset.morph.rawValue
             imageView.curve = Spring.AnimationCurve.easeIn.rawValue
             imageView.duration = 1.5
             imageView.animate()
         } else if stepCounter == 4 {
-            animateButton.setTitle("Next", for: .normal)
+            animateButton.setTitle("Next to Wobble", for: .normal)
             animationLabel.text = "Animation Squeeze"
             imageView.animation = Spring.AnimationPreset.squeeze.rawValue
             imageView.curve = Spring.AnimationCurve.easeIn.rawValue
             imageView.duration = 2
             imageView.animate()
         } else if stepCounter == 5 {
-            animateButton.setTitle("Next", for: .normal)
+            animateButton.setTitle("Next to Swing", for: .normal)
             animationLabel.text = "Animation Wobble"
             imageView.animation = Spring.AnimationPreset.wobble.rawValue
             imageView.curve = Spring.AnimationCurve.easeIn.rawValue
             imageView.duration = 1.5
             imageView.animate()
         } else if stepCounter == 6 {
-            animateButton.setTitle("Next", for: .normal)
+            animateButton.setTitle("Next to flipX", for: .normal)
             animationLabel.text = "Animation Swing"
             imageView.animation = Spring.AnimationPreset.swing.rawValue
             imageView.curve = Spring.AnimationCurve.easeIn.rawValue
             imageView.duration = 1.5
             imageView.animate()
         } else if stepCounter == 7 {
-            animateButton.setTitle("Next", for: .normal)
+            animateButton.setTitle("Next to FlipY", for: .normal)
             animationLabel.text = "Animation FlipX"
             imageView.animation = Spring.AnimationPreset.flipX.rawValue
             imageView.curve = Spring.AnimationCurve.easeIn.rawValue
             imageView.duration = 1.5
             imageView.animate()
         } else if stepCounter == 8 {
-            animateButton.setTitle("Next", for: .normal)
+            animateButton.setTitle("Next to Fall", for: .normal)
             animationLabel.text = "Animation FlipY"
             imageView.animation = Spring.AnimationPreset.flipY.rawValue
             imageView.curve = Spring.AnimationCurve.easeIn.rawValue
